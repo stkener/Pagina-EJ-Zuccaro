@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.colorTextoBlanco{
+    color: #F5EFE7;
+}
+
+.colorFondoAzul{
+    background-color: #4F709C;
+    
+}
+
+.fuenteRespTitulo{
+    font-size: calc(0.5px + 3vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fuenteRespGeneral{
+    font-size: calc(1.5px + 0.9vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.claseMain{
+    
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+  
+}
+
+.colorBody{
+    background-color: #D8C4B6;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}

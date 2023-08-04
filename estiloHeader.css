@@ -1,0 +1,332 @@
+
+
+/*#########################################################*/
+/*Escritorio*/
+/*#########################################################*/
+@media only screen and (min-width: 1024px){
+.fuenteRespGeneral{
+    font-size: calc(2px + 0.9vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedorEncabezado{
+    width: 100%;
+    height: auto;
+    display: flex;    
+}
+
+.contenedorTituloBoton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: normal;
+
+    width: 50%;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+.contenedorBoton{
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;    
+    
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
+.iconoMenu{
+    display: none;
+}
+
+.contenedorMenu{
+    display: flex;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.listaMenu{
+    display: flex;    
+    width: 100%;
+    margin: 0;
+    padding-right: 1%;
+    
+
+}
+
+.itemMenu{
+    width: 100%;
+    list-style: none;
+    text-align: center;  
+     
+}
+
+.formatoAncla{
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+}
+
+.formatoAncla:hover{
+    background-color: #F5EFE7;
+    cursor: pointer;
+	transition: all 300ms;
+    text-decoration: none;
+}
+
+}
+
+/*#########################################################*/
+/*Tablet*/
+/*#########################################################*/
+@media only screen and (min-width: 767px) and (max-width: 1023px){
+.contenedorEncabezado{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;   
+}
+
+.fuenteRespTitulo{
+    font-size: calc(10px + 3vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fuenteRespGeneral{
+    font-size: calc(9px + 0.9vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedorTituloBoton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: normal;
+
+    /*background-color: yellowgreen;*/
+    width: 100%;
+    
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.contenedorBoton{
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;    
+    
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
+.iconoMenu{
+    background-color: transparent;
+    border: none;
+}
+
+.imagenIconoMenu{
+	width: 40px;
+	height: 40px;
+    padding: 10%; 
+    filter: invert(99%) sepia(3%) saturate(2202%) hue-rotate(345deg) brightness(112%) contrast(92%);
+}
+
+.imagenIconoMenu:hover{
+    filter: invert(39%) sepia(53%) saturate(412%) hue-rotate(174deg) brightness(96%) contrast(86%);
+}
+
+.iconoMenu:hover{
+    background-color: #F5EFE7;
+    cursor: pointer;
+	border-radius: 60%;
+	transition: all 800ms;
+}
+
+
+.contenedorMenu{
+    width: 100%;
+    padding: 0;
+    left:-100%;
+    position: fixed;
+}
+
+.listaMenu{
+    list-style: none;
+    width: 100%;
+    height: 100%;    
+    margin: 0;
+}
+
+.itemMenu{
+    width: 100%;
+    text-align: center;   
+    
+}
+
+.formatoAncla{
+    width: 100%;
+    /*height: 10vh;*/
+    
+    text-decoration: none;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%; 
+    background: rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+}
+
+.formatoAncla:hover{
+    background-color: #F5EFE7;
+    cursor: pointer;
+	transition: all 300ms;
+    text-decoration: none;
+}
+
+}
+
+/*#########################################################*/
+/*Celular*/
+/*#########################################################*/
+@media only screen and (max-width: 767px){
+.contenedorEncabezado{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;   
+}
+
+.fuenteRespTitulo{
+    font-size: calc(15px + 3vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fuenteRespGeneral{
+    font-size: calc(10px + 0.9vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedorTituloBoton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: normal;
+
+    /*background-color: yellowgreen;*/
+    width: 100%;
+    
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.contenedorBoton{
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;    
+    
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
+.iconoMenu{
+    background-color: transparent;
+    border: none;
+}
+
+.iconoMenu img{
+	width: 40px;
+	height: 40px;
+    padding: 10%; 
+    filter: invert(99%) sepia(3%) saturate(2202%) hue-rotate(345deg) brightness(112%) contrast(92%);
+}
+
+.iconoMenu img:hover{
+    filter: invert(39%) sepia(53%) saturate(412%) hue-rotate(174deg) brightness(96%) contrast(86%);
+}
+
+.iconoMenu:hover{
+    background-color: #F5EFE7;
+    cursor: pointer;
+	border-radius: 60%;
+	transition: all 800ms;
+}
+
+
+.contenedorMenu{
+    width: 100%;
+    padding: 0;
+    left:-100%;
+    position: fixed;
+}
+
+.listaMenu{
+    list-style: none;
+    width: 100%;
+    height: 100%;    
+    margin: 0;
+}
+
+.itemMenu{
+    width: 100%;
+    text-align: center;   
+    
+}
+
+.formatoAncla{
+    width: 100%;
+    height: auto;
+    
+    text-decoration: none;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    background: rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+}
+
+.formatoAncla:hover{
+    background-color: #F5EFE7;
+    cursor: pointer;
+	transition: all 300ms;
+    text-decoration: none;
+}
+}

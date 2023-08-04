@@ -1,0 +1,529 @@
+/*#########################################################*/
+/*Escritorio*/
+/*#########################################################*/
+@media only screen and (min-width: 1024px){
+
+/*PORTADA*/
+.fuenteRespPortada{
+    font-size: calc(6px + 1vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.portada{
+    width: 100%;
+    height: auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+        
+    background-image: url("img/martillitoOscuro2.jpg");
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.portada p{
+    padding-left: 5%;
+    padding-right: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:start;
+    align-items: center;
+    align-content: normal;
+
+    text-align: center;
+}
+
+/*###############################################*/
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+
+    padding: 3%;
+}
+
+.nosotros img{
+    width: 50%;
+    height: auto;
+
+    margin: 1%;
+
+    border: solid 5px #4F709C;
+    border-radius: 5%;
+}
+
+.articuloNosotros{
+    margin: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+    text-align: center;
+}
+
+/*###############################################*/
+/*Servicios*/
+.contenedorServicios{
+    background-color: #9DB2BF;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.servicios article{
+    padding: 0;
+    margin: 0;
+    /*border: solid 5px #4F709C;*/
+    
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.servicios article p{
+    padding: 0;
+    margin: 0;
+}
+
+.servicios article img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.fuenteRespServicios{
+    font-size: calc(6px + 1vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*###############################################*/
+/*Contactos*/
+.contacto{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.contenedorDatosMensaje{
+    display: flex;
+}
+
+.contenedorDatos{
+    text-align: start;
+    padding-left: 15%;
+    padding-right: 1%;
+    padding-top: 5%;
+    width: 50%;
+    
+}
+
+.contenedorDatos ul{
+    list-style: none;
+}
+
+.contenedorDatos ul li{
+    font-size: calc(4px + 1.3vw);
+    line-height: 2;    
+    color: #4F709C;
+}
+
+.contenedorDatos ul li a{
+    text-decoration: none;
+    padding: 1%;
+    color: #4F709C;
+}
+
+.especial:hover{
+    color: #4F709C;
+}
+
+.fuenteRespContacto{
+    font-size: calc(4px + 1.3vw);
+    font-family: 'Quicksand', sans-serif;
+}
+/*Formulario*/
+.colorRequerido{
+    color:red;
+}
+
+.contenedorMensaje{
+    width: 50%;
+    text-align: start;
+    padding-left: 10%;
+    /*padding: 1%;*/
+    /*background-color: blue;*/
+}
+
+textarea{
+    resize: none;
+}
+
+.botonEnviar{
+    padding: 1%;
+}
+
+}
+
+/*#########################################################*/
+/*Tablet*/
+/*#########################################################*/
+@media only screen and (min-width: 767px) and (max-width: 1023px){
+
+/*PORTADA*/
+.fuenteRespPortada{
+    font-size: calc(6px + 1vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.portada{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+        
+    background-image: url("img/martillitoOscuro2.jpg");
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.portada p{
+    padding-left: 5%;
+    padding-right: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:start;
+    align-items: center;
+    align-content: normal;
+
+    text-align: center;
+}
+
+/*###############################################*/
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: normal;
+
+    padding: 3%;
+}
+
+.nosotros img{
+    width: 50%;
+    height: auto;
+
+    margin: 1%;
+
+    border: solid 5px #4F709C;
+    border-radius: 5%;
+}
+
+.articuloNosotros{
+    margin: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+    text-align: center;
+}
+
+/*###############################################*/
+.contenedorServicios{
+    background-color: #9DB2BF;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.servicios article{
+    padding: 0;
+    margin: 0;
+        
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.servicios article p{
+    padding: 0;
+    margin: 0;
+}
+
+.servicios article img{
+    max-width: 45%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.fuenteRespServicios{
+    font-size: calc(6px + 1vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*###############################################*/
+/*Contactos*/
+.contacto{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.contenedorDatosMensaje{
+    display: flex;
+}
+
+.contenedorDatos{
+    text-align: start;
+    padding-left: 15%;
+    padding-right: 1%;
+    padding-top: 5%;
+    width: 50%;
+}
+
+.contenedorDatos ul{
+    list-style: none;
+}
+
+.contenedorDatos ul li{
+    font-size: calc(4px + 1.3vw);
+    line-height: 2;    
+    color: #4F709C;
+}
+
+.contenedorDatos ul li a{
+    text-decoration: none;
+    padding: 1%;
+    color: #4F709C;
+}
+
+.especial:hover{
+    color: #4F709C;
+}
+
+.fuenteRespContacto{
+    font-size: calc(4px + 1.3vw);
+    font-family: 'Quicksand', sans-serif;
+}
+/*Formulario*/
+.colorRequerido{
+    color:red;
+}
+
+.contenedorMensaje{
+    width: 50%;
+    text-align: start;
+    padding-left: 10%;
+}
+
+textarea{
+    resize: none;
+}
+
+.botonEnviar{
+    padding: 1%;
+}
+
+}
+
+/*#########################################################*/
+/*Celular*/
+/*#########################################################*/
+@media only screen and (max-width: 767px){
+
+/*PORTADA*/
+.fuenteRespPortada{
+    font-size: calc(8px + 1vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.portada{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+        
+    background-image: url("img/martillitoOscuro2.jpg");
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.portada p{
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    align-content: normal;
+
+    text-align: center;
+}
+/*###############################################*/
+.nosotros{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+
+    padding: 3%;
+}
+
+.nosotros img{
+    width: 60%;
+    height: auto;
+
+    margin: 1%;
+
+    border: solid 5px #4F709C;
+    border-radius: 5%;    
+}
+
+.articuloNosotros{
+    margin: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+    text-align: center;
+}
+
+/*###############################################*/
+.contenedorServicios{
+    background-color: #9DB2BF;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.servicios article{
+    padding: 0;
+    margin: 0;
+        
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.servicios article p{
+    padding: 0;
+    margin: 0;
+}
+
+.servicios article img{
+    max-width: 45%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.fuenteRespServicios{
+    font-size: calc(6px + 2.5vw);
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*###############################################*/
+/*Contactos*/
+.contacto{
+    /*text-align: center;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    /*align-content: center; 
+    align-items: center; */
+}
+
+.tituloContacto{
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    align-items: center;
+    
+}
+
+.contenedorDatosMensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorDatos{
+    text-align: start;
+    padding-top: 1%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    align-items: center;
+}
+
+.contenedorDatos ul{
+    list-style: none;
+}
+
+.contenedorDatos ul li{
+    font-size: calc(6px + 2vw);
+    line-height: 2;    
+    color: #4F709C;
+}
+
+.contenedorDatos ul li a{
+    text-decoration: none;
+    padding: 2%;
+    color: #4F709C;
+}
+
+.especial:hover{
+    color: #4F709C;
+}
+
+.fuenteRespContacto{
+    font-size: calc(6px + 2vw);/*calc(4px + 1.5vw);*/
+    font-family: 'Quicksand', sans-serif;
+}
+/*Formulario*/
+.colorRequerido{
+    color:red;
+}
+
+.contenedorMensaje{
+    width: 100%;
+    text-align: start;
+        
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    align-items: center; 
+    
+}
+
+textarea{
+    resize: none;
+}
+
+.botonEnviar{
+    padding: 1%;
+}
+
+}
