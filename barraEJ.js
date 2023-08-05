@@ -1,5 +1,7 @@
 $(document).ready(main);
 
+const botonMenu = getElementById("butonIconoMenu")
+const imagenBotonMenu = getElementById("imagenMenuIcono")
 var contador = 1;
 
 function main(){
@@ -17,3 +19,4 @@ function main(){
         }
     });
 };
+

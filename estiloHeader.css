@@ -155,15 +155,15 @@
     filter: invert(99%) sepia(3%) saturate(2202%) hue-rotate(345deg) brightness(112%) contrast(92%);
 }
 
-.imagenIconoMenu:hover{
+.imagenIconoMenu:active{
     filter: invert(39%) sepia(53%) saturate(412%) hue-rotate(174deg) brightness(96%) contrast(86%);
 }
 
-.iconoMenu:hover{
+.iconoMenu:active{
     background-color: #F5EFE7;
     cursor: pointer;
 	border-radius: 60%;
-	transition: all 800ms;
+	transition: all 0.1ms;
 }
 
 
@@ -189,8 +189,7 @@
 
 .formatoAncla{
     width: 100%;
-    /*height: 10vh;*/
-    
+        
     text-decoration: none;
     padding-top: 2.5%;
     padding-bottom: 2.5%; 
@@ -242,7 +241,6 @@
     align-items: center;
     align-content: normal;
 
-    /*background-color: yellowgreen;*/
     width: 100%;
     
     padding-left: 1%;
@@ -274,15 +272,15 @@
     filter: invert(99%) sepia(3%) saturate(2202%) hue-rotate(345deg) brightness(112%) contrast(92%);
 }
 
-.iconoMenu img:hover{
+.imagenIconoMenu:active{
     filter: invert(39%) sepia(53%) saturate(412%) hue-rotate(174deg) brightness(96%) contrast(86%);
 }
 
-.iconoMenu:hover{
+.iconoMenu:active{
     background-color: #F5EFE7;
     cursor: pointer;
 	border-radius: 60%;
-	transition: all 800ms;
+	transition: all 0.1ms;
 }
 
 
